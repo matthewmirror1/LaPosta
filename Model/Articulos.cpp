@@ -3,7 +3,7 @@
 
 
 #include "Articulos.h"
-	 //buen dia
+	
 Articulos::Articulos(float Precio, unsigned int Stock) {
 	 this->precio = Precio;
 	 this->stock = Stock;
@@ -22,14 +22,11 @@ Articulos::Articulos(float Precio, unsigned int Stock) {
  }
 
  //setters
-
- //crear un parametro de Nuevoprecio
- date Articulos::set_HorarioLaboral(date NuevoPrecio) {
-	 this->Precio = Nuevoprecio;
+ float Articulos::set_Precio(float Precio) {
+	 this->Precio =Precio;
  }
 
- //crear un parametro de Nuevosueldo
- float Articulos::set_Sueldo(date Nuevosueldo) {
-	 this->Sueldo = Nuevosueldo;
+ unsigned int Articulos::set_Stock(unsigned int Stock) {
+	 this->Stock = Stock;
  }
 
