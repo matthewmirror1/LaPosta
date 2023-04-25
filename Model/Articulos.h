@@ -1,4 +1,5 @@
 
+//listo
 
 #ifndef _ARTICULOS_H
 #define _ARTICULOS_H
