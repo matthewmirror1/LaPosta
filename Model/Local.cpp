@@ -5,37 +5,22 @@
 
 #include "Local.h"
 
-/**
- * Local implementation
- */
-
-
-/**
- * @param string
- * @param string
- * @param date
- * @param date
- * @param string
- */
-void Local::Local(void string, void string, void date, void date, void string) {
+Local::Local(string nombre, string Direccion, date HorarioSemana, date HorarioFinDeSemana, string Contacto) {
 
 }
-
-/**
- * @param string contacto
- * @return string
- */
-string Local::set Contacto(void string contacto) {
-    return "";
+Local::~Local() {}
+//getter
+date Local::get_HorarioFinDeSemana() {
+	return this->HorarioFinDeSemana;
 }
-
-/**
- * @return date
- */
-date Local::get HorarioSemana() {
-    return null;
+string Local::set_Contacto(string Contacto) {
+	this->Contacto = Contacto;
 }
+AsistAutomatico::AsistAutomatico(string NroTurno) {
 
-void Local::Local() {
+}
+~AsistAutomatico::AsistAutomatico() {}
+string AsistAutomatico::get_NroTurno() {
+	this->NroTurno;
 
 }

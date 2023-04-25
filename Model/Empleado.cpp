@@ -5,33 +5,19 @@
 
 #include "Empleado.h"
 
-/**
- * Empleado implementation
- */
+ //constructor
+Empleado::Empleado(string Nombre, string Apellido, date HorarioLaboral, float Sueldo) {
+    this->nombre = Nombre;
+    this->apellido = Apellido;
+    this->horarioLaboral = HorarioLaboral;
+    this->sueldo = Sueldo;
+}
 
-
-void Empleado::Operation1() {
+//destructor
+Empleado::~Empleado() {
 
 }
 
-void Empleado::Operation2() {
-
-}
-
-/**
- * @param string
- * @param string
- * @param date
- * @param float
- */
-void Empleado::Empleado(void string, void string, void date, void float) {
-
-}
-
-/**
- * @param miCliente
- * @return unsigned int
- */
 unsigned int Empleado::LlamarPorTicket(Cliente miCliente) {
     return null;
 }
@@ -58,36 +44,23 @@ float Empleado::FacturaryGeneraTicket() {
     return 0.0;
 }
 
-/**
- * @param date HorarioLaboral
- * @return date
- */
-date Empleado::setHorarioLaboral(void date HorarioLaboral) {
-    return null;
+//setters
+
+    //crear un parametro de NuevaHoraLaboral
+date Empleado::set_HorarioLaboral(date NuevaHoraLaboral) {
+    this->HorarioLaboral = NuevoHorarioLaboral;
 }
 
-/**
- * @param float Sueldo
- * @return float
- */
-float Empleado::set Sueldo(void float Sueldo) {
-    return 0.0;
+//crear un parametro de NuevoSueldo
+float Empleado::set_Sueldo(float NuevoSueldo) {
+    this->Sueldo = NuevoSueldo;
 }
 
-/**
- * @return date
- */
-date Empleado::getHorarioLaboral() {
-    return null;
+//getters
+date Empleado::get_HorarioLaboral() {
+    return this->HorarioLaboral;
 }
 
-/**
- * @return float
- */
-float Empleado::getSueldo() {
-    return 0.0;
-}
-
-void Empleado::Empleado() {
-
+float Empleado::get_Sueldo() {
+    return this->Sueldo;
 }

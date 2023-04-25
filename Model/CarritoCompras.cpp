@@ -5,36 +5,21 @@
 
 #include "CarritoCompras.h"
 
-/**
- * CarritoCompras implementation
- */
-
-
-/**
- * @param float
- * @param unsigned int
- */
-void CarritoCompras::CarritoCompras(void float, void unsigned int) {
-
+CarritoCompras::CarritoCompras(float MontoTotal, unsigned int Nro) : Nro(Nro) {
+    this->montoTotal = MontoTotal;
 }
 
-/**
- * @param miPerfumeria
- * @param miGolosina
- * @param miOrtopedia
- * @param miFarmacia
- * @return float
- */
+
+CarritoCompras::CarritoCompras(){}
+
+
 float CarritoCompras::CalcMontoTotal(Perfumeria miPerfumeria, Golosina miGolosina, Ortopedia miOrtopedia, Farmacia miFarmacia) {
     return 0.0;
 }
 
-/**
- * @param float MontoTotal
- * @return float
- */
-float CarritoCompras::set MontoTotal(void float MontoTotal) {
-    return 0.0;
+//creo un nuevo parametro con el NuevomontoTotal
+float CarritoCompras::set MontoTotal(float NuevomontoTotal) {
+    this-> MontoTotal=NuevomontoTotal
 }
 
 /**
