@@ -15,21 +15,24 @@
  * @param float
  * @param string
  */
-void Perfumeria::Perfumeria(void eArticuloPerf; in unsigned int, void float, void string) {
+Perfumeria::Perfumeria(string Size, float Precio, unsigned int Stock)(){
+
+    }
+void Perfumeria::Perfumeria(void eArticuloPerf;  unsigned int, void float, void string) {
 
 }
 
 /**
  * @return enum
  */
-enum Perfumeria::get ArticuloPerf() {
-    return null;
+enum Perfumeria::get_ArticuloPerf(eArticuloPerf) {
+    return this ->eArticuloPerf;
 }
 
 /**
  * @return enum
  */
-enum Perfumeria::set ArticuloPerf() {
+enum Perfumeria::set_ArticuloPerf(eArticuloPerf ArtPerf) {
     return null;
 }
 
