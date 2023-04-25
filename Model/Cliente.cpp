@@ -72,7 +72,7 @@ string Cliente::get_Receta() {
 
 string Cliente::get_NroTicket() {
 	return this->NroTicket;
-}
+}//HOLA
 
 //setters
 

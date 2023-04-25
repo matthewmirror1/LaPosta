@@ -23,4 +23,4 @@ AsistAutomatico::AsistAutomatico(string NroTurno) {
 string AsistAutomatico::get_NroTurno() {
 	this->NroTurno;
 
-}
+}//nuevo

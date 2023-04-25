@@ -3,7 +3,7 @@
 
 
 #include "Articulos.h"
-
+	 //buen dia
 Articulos::Articulos(float Precio, unsigned int Stock) {
 	 this->precio = Precio;
 	 this->stock = Stock;

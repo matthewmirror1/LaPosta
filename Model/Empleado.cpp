@@ -2,7 +2,7 @@
  * Project Untitled
  */
 
-
+//comentario prueba
 #include "Empleado.h"
 
  //constructor
