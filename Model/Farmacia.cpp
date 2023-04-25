@@ -18,7 +18,12 @@
 void Farmacia::Farmacia(void eFarmacia, void float, void unsigned int) {
 
 }
+Farmacia::Farmacia(float Precio,unsigned int Stock, ) {
 
+}
+~Farmacia::Farmacia() {
+
+}
 /**
  * @return enum
  */
