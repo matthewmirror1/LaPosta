@@ -10,54 +10,30 @@
  */
 
 
-/**
- * @param string
- * @param string
- * @param date
- * @param float
- * @param unsigned int
- */
-//Constructor de Farmaceutico
-Farmaceutico(string Nombre, string Apellido, date Horario_Laboral, float Sueldo, unsigned int NroMatricula) {
+Farmaceutico::Farmaceutico(unsigned int NroMatricula):Empleado(string Nombre, string Apellido, date HorarioLaboral, float Sueldo) {
 
 }
-Farmaceutico::~Farmaceutico();{}
-/**
- * @param miCliente
- * @return bool
- */
+~Farmaceutico(){}
+
 bool Farmaceutico::VerificarReceta(Cliente miCliente) {
     return false;
 }
 
-/**
- * @param miCliente
- * @param miArticulos
- * @return void
- */
+
 void Farmaceutico::VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos) {
     return;
 }
 
-/**
- * @param miArticulos
- * @return void
- */
+
 void Farmaceutico::RecomendacionVentaLibre(Articulos miArticulos) {
     return;
 }
 
-/**
- * @param miArticulos
- * @return void
- */
+
 void Farmaceutico::AconsejaDosificacion(Articulos miArticulos) {
     return;
 }
 
-/**
- * @return unsigned int
- */
 unsigned int Farmaceutico::get_NroMatricula() {
     return this->NroMatricula;
 }

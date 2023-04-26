@@ -40,9 +40,7 @@ void EmpleadoOrtopedia::Empacar(Articulos miArticulos) {
     return;
 }
 
-void EmpleadoOrtopedia::EmpleadoOrtopedia() {
 
-}
 float EmpleadoOrtopedia::get_Sueldo() {
     return this->Sueldo;
 }

@@ -1,6 +1,3 @@
-/**
- * Project Untitled
- */
 
 
 #ifndef _CLEANER_H
@@ -11,20 +8,15 @@
 
 class Cleaner: public Empleado {
 public: 
-    
-/**
- * @param string
- * @param string
- * @param date
- * @param float
- */
-    Cleaner(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
 
+ 
+    Cleaner(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+    ~Cleaner();
     
 bool LimpiarOrdenar();
 protected: 
     
-~Cleaner();
+
 };
 
 #endif //_CLEANER_H

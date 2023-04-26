@@ -1,6 +1,3 @@
-/**
- * Project Untitled
- */
 
 
 #ifndef _FARMACEUTICO_H
@@ -12,42 +9,26 @@
 class Farmaceutico: public Empleado {
 public: 
     
-/**
- * @param string
- * @param string
- * @param date
- * @param float
- * @param unsigned int
- */
-    Farmaceutico(string Nombre, string Apellido, date Horario_Laboral, float Sueldo, unsigned int NroMatricula);
+
+    Farmaceutico( unsigned int NroMatricula);
     ~Farmaceutico();
-/**
- * @param miCliente
- */
+
 bool VerificarReceta(Cliente miCliente);
     
-/**
- * @param miCliente
- * @param miArticulos
- */
-void VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos);
+
+ VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos);
+
+ RecomendacionVentaLibre(Articulos miArticulos);
     
-/**
- * @param miArticulos
- */
-void RecomendacionVentaLibre(Articulos miArticulos);
-    
-/**
- * @param miArticulos
- */
+
 void AconsejaDosificacion(Articulos miArticulos);
     
 unsigned int get NroMatricula();
-protected: 
+
     
 
 private: 
-    const unsigned int NroMatricula;
+     unsigned int NroMatricula;
 };
 
 #endif //_FARMACEUTICO_H
