@@ -1,34 +1,16 @@
-/**
- * Project Untitled
- */
-
 
 #include "Cliente.h"
 
-
-
-
-/**
- * @param miAsistAutomatico
- * @return unsigned int
- */
 unsigned int Cliente::SacarTicket(AsistAutomatico miAsistAutomatico) {
-    return null;
+    
 }
 
-/**
- * @return void
- */
 void Cliente::EntregarSolicitado() {
-    return;
+    
 }
 
-/**
- * @param miTicket
- * @return void
- */
 void Cliente::Abonar(Ticket miTicket) {
-    return;
+    
 }
 
 //constructor
@@ -72,11 +54,9 @@ string Cliente::get_Receta() {
 
 string Cliente::get_NroTicket() {
 	return this->NroTicket;
-}//HOLA
+}
 
 //setters
-
-	//como parametro entra nuevo codigo de seguridad (NuevoCodigo)
-unsigned int Cliente::set_CodigoSeguridad(unsigned int NuevoCodigo) {
-	this->CodigoSeguridad = NuevoCodigo;
+unsigned int Cliente::set_CodigoSeguridad(unsigned int CodigoSeguridad) {
+	this->CodigoSeguridad = CodigoSeguridad;
 }

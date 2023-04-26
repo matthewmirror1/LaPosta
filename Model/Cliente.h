@@ -1,58 +1,22 @@
-/**
- * Project Untitled
- */
-
 
 #ifndef _CLIENTE_H
 #define _CLIENTE_H
 
 class Cliente {
 public: 
-    
-/**
- * @param string
- * @param string
- * @param string
- * @param string
- * @param int
- * @param string
- * @param string
- * @param int
- * @param bool
- */
-void Cliente(void string, void string, void string, void string, void int, void string, void string, void int, void bool);
-    
-/**
- * @param miAsistAutomatico
- */
+Cliente(string Nombre, string Apellido, string DNI, string NroAfiliado, unsigned int CodigoSeguridad, string Receta, unsigned int NroTicket, bool SoloKiosco) :NroAfiliado(NroAfiliado);
+~Cliente();
 unsigned int SacarTicket(AsistAutomatico miAsistAutomatico);
-    
 void EntregarSolicitado();
-    
-/**
- * @param miTicket
- */
-void Abonar(Ticket miTicket);
-    
-string get Mail();
-    
-/**
- * @param unsigned int CodigoSeguridad
- */
-unsigned int set CodigoSeguridad(void unsigned int CodigoSeguridad);
-    
-string get DNI();
-    
-const string get NroAfiliado();
-    
-unsigned int get CodigoSeguridad();
-    
-string get Receta();
-    
-unsigned int get NroTicket();
-protected: 
-    
-void Cliente();
+void Abonar(Ticket miTicket);  
+string get_Mail();
+unsigned int set_CodigoSeguridad(unsigned int CodigoSeguridad);   
+string get_DNI();   
+const string get_NroAfiliado();   
+unsigned int get_CodigoSeguridad();
+string get_Receta();
+unsigned int get_NroTicket();
+
 private: 
     string Nombre;
     string Apellido;

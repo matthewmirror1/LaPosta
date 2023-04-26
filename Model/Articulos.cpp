@@ -1,7 +1,7 @@
  * Project Untitled
  */
 
-//listo
+
 
 #include "Articulos.h"
 	

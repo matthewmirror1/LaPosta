@@ -1,7 +1,3 @@
-/**
- * Project Untitled
- */
-
 
 #include "CarritoCompras.h"
 
@@ -9,45 +5,26 @@ CarritoCompras::CarritoCompras(float MontoTotal, unsigned int Nro) : Nro(Nro) {
     this->montoTotal = MontoTotal;
 }
 
-
-CarritoCompras::CarritoCompras(){}
-
+CarritoCompras::~CarritoCompras(){}
 
 float CarritoCompras::CalcMontoTotal(Perfumeria miPerfumeria, Golosina miGolosina, Ortopedia miOrtopedia, Farmacia miFarmacia) {
-    return 0.0;
+   
 }
 
-//creo un nuevo parametro con el NuevomontoTotal
-float CarritoCompras::set MontoTotal(float NuevomontoTotal) {
-    this-> MontoTotal=NuevomontoTotal
+
+float CarritoCompras::set_MontoTotal(float MontoTotal) {
+    this->MontoTotal = MontoTotal;
 }
 
-/**
- * @return float
- */
-float CarritoCompras::get MontoTotal() {
-    return 0.0;
+float CarritoCompras::get_MontoTotal() {
+    return this->MontoTotal;
 }
 
-void CarritoCompras::Operation1() {
-
-}
-
-/**
- * @param miArticulos
- * @return bool
- */
 bool CarritoCompras::AgregarArticulos(Articulos miArticulos) {
-    return false;
+  
 }
 
-/**
- * @return const unsigned int
- */
-const unsigned int CarritoCompras::get Nro() {
-    return null;
+const unsigned int CarritoCompras::get_Nro() {
+    return this->Nro;
 }
 
-void CarritoCompras::CarritoCompras() {
-
-}

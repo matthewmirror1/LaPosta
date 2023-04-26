@@ -1,39 +1,17 @@
-/**
- * Project Untitled
- */
-
 
 #include "Ortopedia.h"
+#include "eArticuloOrt.h"
 
-/**
- * Ortopedia implementation
- */
-
-
-/**
- * @param eArticuloOrt
- * @param float
- * @param unsigned in int
- */
-void Ortopedia::Ortopedia(void eArticuloOrt, void float, void unsigned in int) {
+Ortopedia::Ortopedia() :Articulos(float Precio, unsigned int Stock) {
 
 }
 
-/**
- * @return enum
- */
-enum Ortopedia::get ArticuloOrt() {
-    return null;
+Ortopedia::~Ortopedia(){}
+
+enum Ortopedia::get_ArticuloOrt(eArticuloOrt ArtOrtop) {
+    return this->ArtOrtop;
 }
 
-/**
- * @param eArticuloOrt ArtOrtop
- * @return enum
- */
-enum Ortopedia::setArtOrt(void eArticuloOrt ArtOrtop) {
-    return null;
-}
-
-void Ortopedia::Ortopedia() {
-
+enum Ortopedia::setArtOrt(eArticuloOrt ArtOrtop) {
+    this->ArtOrtp = ArtOrtop;
 }

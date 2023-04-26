@@ -19,7 +19,6 @@ public:
 protected: 
     float Precio;
     unsigned int Stock;
-    
 };
 
 #endif //_ARTICULOS_H

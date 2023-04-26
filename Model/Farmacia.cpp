@@ -1,44 +1,19 @@
-/**
- * Project Untitled
- */
-
 
 #include "Farmacia.h"
-
-/**
- * Farmacia implementation
- */
+#include "eFarmacia.h"
 
 
-/**
- * @param eFarmacia
- * @param float
- * @param unsigned int
- */
-void Farmacia::Farmacia(void eFarmacia, void float, void unsigned int) {
+Farmacia::Farmacia():Articulos(float Precio, unsigned int Stock) {
 
 }
-Farmacia::Farmacia(float Precio,unsigned int Stock, ) {
+Farmacia::~Farmacia() {}
 
-}
-~Farmacia::Farmacia() {
-
-}
-/**
- * @return enum
- */
-enum Farmacia::get ArtFarm() {
-    return null;
+enum Farmacia::get_ArtFarm(eFarmacia ArtFarm) {
+    return this->ArtFarm;
 }
 
-/**
- * @param eFarmacia artfarm
- * @return enum
- */
-enum Farmacia::setArtFarm(void eFarmacia artfarm) {
-    return null;
+enum Farmacia::setArtFarm(eFarmacia Artfarm) {
+    this->ArtFarm = ArtFarm;
 }
 
-void Farmacia::Farmaceutico() {
 
-}

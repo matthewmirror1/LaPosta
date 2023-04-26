@@ -1,53 +1,26 @@
-/**
- * Project Untitled
- */
-
 
 #include "AsistAutomatico.h"
-
-/**
- * AsistAutomatico implementation
- */
-
-
-/**
- * @param eNecesidad
- * @param unsigned int
- */
-void AsistAutomatico::AsistAutomatico(void eNecesidad, void unsigned int) {
+AsistAutomatico::AsistAutomatico() {
 
 }
+AsistAutomatico::~AsistAutomatico() {}
 
-/**
- * @param eNecesidad necesidad
- * @return string
- */
+string AsistAutomatico::get_NroTurno() {
+    return this->NroTurno;
+}
+
 string AsistAutomatico::ImprimirTicket(void eNecesidad necesidad) {
-    return "";
+   
 }
 
-/**
- * @return enum
- */
-enum AsistAutomatico::get Necesidad() {
-    return null;
+enum AsistAutomatico::get_Necesidad() {
+    return this->necesidad;
 }
 
-/**
- * @param eNecesidad necesidad
- * @return enum
- */
-enum AsistAutomatico::set Necesidad(void eNecesidad necesidad) {
-    return null;
+enum AsistAutomatico::set Necesidad(eNecesidad necesidad) {
+    this->necesidad = necesidad;
 }
 
-/**
- * @return string
- */
 string AsistAutomatico::get NroTurno() {
-    return "";
-}
-
-void AsistAutomatico::AsistAutomatico() {
-
+    return this->NroTicket;
 }
