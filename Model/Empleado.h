@@ -6,7 +6,7 @@
 #ifndef _EMPLEADO_H
 #define _EMPLEADO_H
 
-#include "Cajero.h"
+
 
 
 class Empleado: public Cajero {
