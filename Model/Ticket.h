@@ -16,12 +16,12 @@ public:
  * @param const string
  * @param bool
  */
-void Ticket(void float, void const string, void eMetodoPago, void const string, void bool);
-    
+    Ticket(float PrecioFinal, string DNI, eMetodoPago MetodoPago, string CUIT, bool Descuento);
+    ~Ticket();
 bool AplicarDescuento();
 protected: 
     
-void Ticket();
+ 
 private: 
     float PrecioFinal;
     const string DNI;

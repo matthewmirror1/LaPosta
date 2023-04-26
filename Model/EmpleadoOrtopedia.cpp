@@ -16,9 +16,13 @@
  * @param date
  * @param float
  */
-void EmpleadoOrtopedia::EmpleadoOrtopedia(void string, void string, void date, void float) {
+EmpleadoOrtopedia::EmpleadoOrtopedia(string Nombre, string Apellido, date Horario_Laboral, float Sueldo); {
 
 }
+EmpleadoOrtopedia::~EmpleadoOrtopedia()
+ {
+
+ }
 
 /**
  * @param miArticulos
@@ -39,3 +43,17 @@ void EmpleadoOrtopedia::Empacar(Articulos miArticulos) {
 void EmpleadoOrtopedia::EmpleadoOrtopedia() {
 
 }
+float EmpleadoOrtopedia::get_Sueldo() {
+    return this->Sueldo;
+}
+date  EmpleadoOrtopedia::get_HorarioLaboral() {
+    return this->HorarioLaboral;
+}
+//getters del empleado de ortopedia
+date   EmpleadoOrtopedia::set_HorarioLaboral(date NuevaHoraLaboral) {
+    this->HorarioLaboral = NuevoHorarioLaboral;
+}
+float  EmpleadoOrtopedia::set_Sueldo(float NuevoSueldo) {
+    this->Sueldo = NuevoSueldo;
+}
+//setters del empleado de ortopedia

@@ -18,8 +18,8 @@ public:
  * @param date
  * @param float
  */
-void EmpleadoOrtopedia(void string, void string, void date, void float);
-    
+     EmpleadoOrtopedia(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+     ~EmpleadoOrtopedia();
 /**
  * @param miArticulos
  */
@@ -31,7 +31,7 @@ void AsesorarArtOrtop(Articulos miArticulos);
 void Empacar(Articulos miArticulos);
 protected: 
     
-void EmpleadoOrtopedia();
+
 };
 
 #endif //_EMPLEADOORTOPEDIA_H

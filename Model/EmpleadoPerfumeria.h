@@ -18,15 +18,15 @@ public:
  * @param date
  * @param float
  */
-void EmpleadoPerfumeria(void string, void string, void date, void float);
-    
+    EmpleadoPerfumeria(string Nombre, string Apellido, date Horario_Laboral, float Sueldo); 
+    ~EmpleadoPerfumeria();
 /**
  * @param miArticulos
  */
 void AsesorarPerfum(Articulos miArticulos);
 protected: 
     
-void EmpleadoPerfumeria();
+
 private: 
     void Comisiones;float;
 };

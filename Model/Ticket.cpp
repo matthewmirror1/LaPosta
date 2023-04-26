@@ -17,17 +17,15 @@
  * @param const string
  * @param bool
  */
-void Ticket::Ticket(void float, void const string, void eMetodoPago, void const string, void bool) {
+Ticket::Ticket(float PrecioFinal, string DNI, eMetodoPago MetodoPago, string CUIT, bool Descuento) {
 
 }
+Ticket::~Ticket() {
 
+}
 /**
  * @return bool
  */
 bool Ticket::AplicarDescuento() {
     return false;
-}
-
-void Ticket::Ticket() {
-
 }

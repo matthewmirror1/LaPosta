@@ -16,10 +16,9 @@
  * @param date
  * @param float
  */
-void Cajero::Cajero(void string, void string, void date, void float) {
+Cajero(string Nombre, string Apellido, date Horario_Laboral, float Sueldo) {
 
 }
-
 /**
  * @param miPerfumeria
  * @param miGolosina
@@ -55,7 +54,17 @@ void Cajero::EntregarPedidoyRecibo(CarritoCompras miCarrito, Ticket miTicket) {
 bool Cajero::EntregatRecibo(Cliente miCliente) {
     return false;
 }
+date Cajero::get_HorarioLaboral() {
+    return this->HorarioLaboral;
+}
+//getters de cajero
+date Cajero::set_HorarioLaboral(date NuevaHoraLaboral) {
+    this->HorarioLaboral = NuevoHorarioLaboral;
+}
+float Cajero::set_Sueldo(float NuevoSueldo) {
+    this->Sueldo = NuevoSueldo;
+}
 
-void Cajero::Cajero() {
+ Cajero::~Cajero() {
 
 }

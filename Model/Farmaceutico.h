@@ -19,8 +19,8 @@ public:
  * @param float
  * @param unsigned int
  */
-void Farmaceutico(void string, void string, void date, void float, void unsigned int);
-    
+    Farmaceutico(string Nombre, string Apellido, date Horario_Laboral, float Sueldo, unsigned int NroMatricula);
+    ~Farmaceutico();
 /**
  * @param miCliente
  */
@@ -45,7 +45,7 @@ void AconsejaDosificacion(Articulos miArticulos);
 unsigned int get NroMatricula();
 protected: 
     
-void Farmaceutico();
+
 private: 
     const unsigned int NroMatricula;
 };

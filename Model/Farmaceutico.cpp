@@ -17,10 +17,11 @@
  * @param float
  * @param unsigned int
  */
-void Farmaceutico::Farmaceutico(void string, void string, void date, void float, void unsigned int) {
+//Constructor de Farmaceutico
+Farmaceutico(string Nombre, string Apellido, date Horario_Laboral, float Sueldo, unsigned int NroMatricula) {
 
 }
-
+Farmaceutico::~Farmaceutico();{}
 /**
  * @param miCliente
  * @return bool
@@ -57,10 +58,16 @@ void Farmaceutico::AconsejaDosificacion(Articulos miArticulos) {
 /**
  * @return unsigned int
  */
-unsigned int Farmaceutico::get NroMatricula() {
-    return null;
+unsigned int Farmaceutico::get_NroMatricula() {
+    return this->NroMatricula;
 }
-
-void Farmaceutico::Farmaceutico() {
-
+date Farmaceutico::get_HorarioLaboral() {
+    return this->HorarioLaboral;
 }
+    //getter de farmaceutico
+    date Farmaceutico::set_HorarioLaboral(date NuevaHoraLaboral) {
+        this->HorarioLaboral = NuevoHorarioLaboral;
+    }
+    float Farmaceutico::set_Sueldo(float NuevoSueldo) {
+        this->Sueldo = NuevoSueldo;
+    }

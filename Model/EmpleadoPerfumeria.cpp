@@ -16,10 +16,12 @@
  * @param date
  * @param float
  */
-void EmpleadoPerfumeria::EmpleadoPerfumeria(void string, void string, void date, void float) {
+EmpleadoPerfumeria::EmpleadoPerfumeria(string Nombre, string Apellido, date Horario_Laboral, float Sueldo) {
 
 }
+EmpleadoPerfumeria::~EmpleadoPerfumeria() {
 
+}
 /**
  * @param miArticulos
  * @return void
@@ -27,7 +29,18 @@ void EmpleadoPerfumeria::EmpleadoPerfumeria(void string, void string, void date,
 void EmpleadoPerfumeria::AsesorarPerfum(Articulos miArticulos) {
     return;
 }
-
-void EmpleadoPerfumeria::EmpleadoPerfumeria() {
-
+float EmpleadoPerfumeria::get_Sueldo() {
+    return this->Sueldo;
 }
+date EmpleadoPerfumeria::get_HorarioLaboral() {
+    return this->HorarioLaboral;
+}
+//geters de Empleado Perf
+date  EmpleadoPerfumeria::set_HorarioLaboral(date NuevaHoraLaboral) {
+    this->HorarioLaboral = NuevoHorarioLaboral;
+}
+float   EmpleadoPerfumeria::set_Sueldo(float NuevoSueldo) {
+    this->Sueldo = NuevoSueldo;
+}
+//settters de empleado de perf
+

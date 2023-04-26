@@ -18,12 +18,13 @@ public:
  * @param date
  * @param float
  */
-void Cleaner(void string, void string, void date, void float);
+    Cleaner(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+
     
 bool LimpiarOrdenar();
 protected: 
     
-void Cleaner();
+~Cleaner();
 };
 
 #endif //_CLEANER_H

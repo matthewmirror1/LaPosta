@@ -18,8 +18,8 @@ public:
  * @param date
  * @param float
  */
-void Cajero(void string, void string, void date, void float);
-    
+    Cajero(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+    Cajero();
 /**
  * @param miPerfumeria
  * @param miGolosina
@@ -45,7 +45,7 @@ void EntregarPedidoyRecibo(CarritoCompras miCarrito, Ticket miTicket);
 bool EntregatRecibo(Cliente miCliente);
 protected: 
     
-void Cajero();
+
 };
 
 #endif //_CAJERO_H
