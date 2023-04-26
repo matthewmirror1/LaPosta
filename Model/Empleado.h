@@ -22,13 +22,18 @@ void Operation2();
  * @param date
  * @param float
  */
-void Empleado(void string, void string, void date, void float);
-    
+Empleado(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+~Empleado();
 /**
  * @param miCliente
  */
+float setSueldo();
+
+date getHorarioLaboral();
+
+float getSueldo();
 unsigned int LlamarPorTicket(Cliente miCliente);
-    
+
 /**
  * @param miCliente
  */
@@ -49,18 +54,14 @@ date setHorarioLaboral(void date HorarioLaboral);
 /**
  * @param float Sueldo
  */
-float set Sueldo(void float Sueldo);
-    
-date getHorarioLaboral();
-    
-float getSueldo();
+
 protected: 
     string Nombre;
     string Apellido;
     date Horariolaboral;
     float Sueldo;
     
-void Empleado();
+
 };
 
 #endif //_EMPLEADO_H
