@@ -36,13 +36,13 @@ float Empleado::FacturaryGeneraTicket() {
 
 //setters
     //crear un parametro de NuevaHoraLaboral
-date Empleado::set_HorarioLaboral(date NuevaHoraLaboral) {
-    this->HorarioLaboral = NuevoHorarioLaboral;
+void Empleado::set_HorarioLaboral(date nuevaHoraLaboral) {
+    this->HorarioLaboral = nuevoHorarioLaboral;
 }
 
 //crear un parametro de NuevoSueldo
-float Empleado::set_Sueldo(float NuevoSueldo) {
-    this->Sueldo = NuevoSueldo;
+  void Empleado::set_Sueldo(float nuevoSueldo) {
+    this->Sueldo = nuevoSueldo;
 }
 
 //getters

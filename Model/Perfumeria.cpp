@@ -13,6 +13,6 @@ enum Perfumeria::get_ArticuloPerf(eArticuloPerf ArtPerf) {
 }
 
 
-enum Perfumeria::set_ArticuloPerf(eArticuloPerf ArtPerf) {
-    this->ArtPerf = ArtPerf;
+void Perfumeria::set_ArticuloPerf(eArticuloPerf artPerf) {
+    this->ArtPerf = artPerf;
 }

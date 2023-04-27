@@ -12,8 +12,8 @@ enum Farmacia::get_ArtFarm(eFarmacia ArtFarm) {
     return this->ArtFarm;
 }
 
-enum Farmacia::setArtFarm(eFarmacia Artfarm) {
-    this->ArtFarm = ArtFarm;
+void Farmacia::setArtFarm(eFarmacia artfarm) {
+    this->ArtFarm = artFarm;
 }
 
 

@@ -13,8 +13,8 @@ public:
     float get_Precio();
     unsigned int get_Stock();
 
-    float set_Precio(float Precio);
-    float set_Stock(unsigned int Stock);
+    void set_Precio(float precio);
+    void set_Stock(unsigned int stock);
 
 protected: 
     float Precio;

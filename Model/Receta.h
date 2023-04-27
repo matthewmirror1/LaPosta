@@ -18,9 +18,9 @@ string get_nroAfiliado();
 
 string get_obrasocial();
 
-string set_ObraSocial(sting obraSocial);
-string set_Dosificacion(string dosificacion);
-string set_Medicamento(string medicamento);
+void set_ObraSocial(sting obrasocial);
+void set_Dosificacion(string dosificacion);
+void set_Medicamento(string medicamento);
 
 private: 
     string Medicamento;

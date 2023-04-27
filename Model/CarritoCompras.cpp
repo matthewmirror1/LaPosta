@@ -12,8 +12,8 @@ float CarritoCompras::CalcMontoTotal(Perfumeria miPerfumeria, Golosina miGolosin
 }
 
 
-float CarritoCompras::set_MontoTotal(float MontoTotal) {
-    this->MontoTotal = MontoTotal;
+void CarritoCompras::set_MontoTotal(float montoTotal) {
+    this->MontoTotal = montoTotal;
 }
 
 float CarritoCompras::get_MontoTotal() {

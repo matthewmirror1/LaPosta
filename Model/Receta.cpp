@@ -29,14 +29,14 @@ string Receta::get_obrasocial() {
 }
 
 
-string Receta::set_ObraSocial(sting obraSocial) {
+void Receta::set_ObraSocial(sting obrasocial) {
     this->ObraSocial = obrasocial;
 }
 
-string Receta :: set_Dosificacion(string dosificacion) {
+void Receta :: set_Dosificacion(string dosificacion) {
     this->Dosificacion = dosificacion;
 }
 
-string Receta::set_Medicamento(string medicamento) {
+void Receta::set_Medicamento(string medicamento) {
     this->Medicamento = medicamento;
 }

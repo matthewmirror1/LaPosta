@@ -11,7 +11,7 @@ public:
 Perfumeria();
 ~ Perfumeria(); 
 enum get_ArticuloPerf();  
-enum set_ArticuloPerf();
+void set_ArticuloPerf(eArticuloPerf artPerf);
 
 private: 
     eArticuloPerf ArtPerf;

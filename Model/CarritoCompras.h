@@ -7,7 +7,7 @@ public:
 CarritoCompras(float MontoTotal, unsigned int Nro);
 ~CarritoCompras();
 float CalcMontoTotal(Perfumeria miPerfumeria, Golosina miGolosina, Ortopedia miOrtopedia, Farmacia miFarmacia);
-float set_MontoTotal(float MontoTotal);
+void set_MontoTotal(float montoTotal);
 float get_MontoTotal();
 bool AgregarArticulos(Articulos miArticulos);  
 const unsigned int get_Nro();

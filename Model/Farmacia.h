@@ -10,7 +10,7 @@ public:
 Farmacia(); //constructor por defecto
 ~Farmacia();
 enum get_ArtFarm(eFarmacia ArtFarm);
-enum setArtFarm(eFarmacia Artfarm);
+void setArtFarm(eFarmacia artfarm);
 
 private: 
     eFarmacia ArtFarm;

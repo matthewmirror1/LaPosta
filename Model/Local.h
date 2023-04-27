@@ -6,7 +6,7 @@ class Local {
 public: 
     Local(string Nombre, string Direccion, date HorarioSemana, date HorarioFinDeSemana, string Contacto);
     ~Local();
-string set_Contacto(string Contacto);  
+void set_Contacto(string contacto);  
 date get_HorarioFinDeSemana();
 
 private: 

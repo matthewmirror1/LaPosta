@@ -50,6 +50,6 @@ string Cliente::get_NroTicket() {
 }
 
 //setters
-unsigned int Cliente::set_CodigoSeguridad(unsigned int CodigoSeguridad) {
-	this->CodigoSeguridad = CodigoSeguridad;
+void Cliente::set_CodigoSeguridad(unsigned int codigoSeguridad) {
+	this->CodigoSeguridad = codigoSeguridad;
 }

@@ -10,7 +10,7 @@ unsigned int SacarTicket(AsistAutomatico miAsistAutomatico);
 void EntregarSolicitado();
 void Abonar(Ticket miTicket);  
 string get_Mail();
-unsigned int set_CodigoSeguridad(unsigned int CodigoSeguridad);   
+void set_CodigoSeguridad(unsigned int codigoSeguridad);   
 string get_DNI();   
 unsigned int get_CodigoSeguridad();
 unsigned int get_NroTicket();

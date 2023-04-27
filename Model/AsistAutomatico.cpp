@@ -17,7 +17,7 @@ enum AsistAutomatico::get_Necesidad() {
     return this->necesidad;
 }
 
-enum AsistAutomatico::set Necesidad(eNecesidad necesidad) {
+void AsistAutomatico::set Necesidad(eNecesidad necesidad) {
     this->necesidad = necesidad;
 }
 

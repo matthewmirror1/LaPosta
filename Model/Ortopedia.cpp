@@ -12,6 +12,6 @@ enum Ortopedia::get_ArticuloOrt(eArticuloOrt ArtOrtop) {
     return this->ArtOrtop;
 }
 
-enum Ortopedia::setArtOrt(eArticuloOrt ArtOrtop) {
-    this->ArtOrtp = ArtOrtop;
+void Ortopedia::setArtOrt(eArticuloOrt artOrtop) {
+    this->ArtOrtp = artOrtop;
 }

@@ -8,7 +8,7 @@ public:
     ~AsistAutomatico();
 string ImprimirTicket(eNecesidad necesidad);  
 enum get_Necesidad();
-enum set_Necesidad(eNecesidad necesidad);
+void set_Necesidad(eNecesidad necesidad);
 string get_NroTurno();
 
 private: 

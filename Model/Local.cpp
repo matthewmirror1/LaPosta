@@ -14,7 +14,7 @@ Local::~Local() {}
 date Local::get_HorarioFinDeSemana() {
 	return this->HorarioFinDeSemana;
 }
-string Local::set_Contacto(string Contacto) {
-	this->Contacto = Contacto;
+void Local::set_Contacto(string contacto) {
+	this->Contacto = contacto;
 }
 

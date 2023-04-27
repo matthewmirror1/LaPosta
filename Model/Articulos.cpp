@@ -23,11 +23,11 @@ Articulos::Articulos(float Precio, unsigned int Stock) {
  }
 
  //setters
- float Articulos::set_Precio(float Precio) {
-	 this->Precio =Precio;
+ void Articulos::set_Precio(float precio) {
+	 this->Precio =precio;
  }
 
- unsigned int Articulos::set_Stock(unsigned int Stock) {
-	 this->Stock = Stock;
+ void Articulos::set_Stock(unsigned int stock) {
+	 this->Stock = stock;
  }
 

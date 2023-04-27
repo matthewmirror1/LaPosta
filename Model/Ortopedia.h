@@ -12,7 +12,7 @@ public:
     ~Ortopedia();
    
 enum get_ArticuloOrt(eArticuloOrt ArtOrtop);
-enum setArtOrt(eArticuloOrt ArtOrtop);
+void setArtOrt(eArticuloOrt artOrtop);
 
 private: 
     eArticuloOrt ArtOrtop;
