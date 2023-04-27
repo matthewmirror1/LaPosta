@@ -1,19 +1,12 @@
-/**
- * Project Untitled
- */
 
 
 #include "Farmaceutico.h"
-
-/**
- * Farmaceutico implementation
- */
 
 
 Farmaceutico::Farmaceutico(unsigned int NroMatricula):Empleado(string Nombre, string Apellido, date HorarioLaboral, float Sueldo) {
 
 }
-~Farmaceutico(){}
+Farmaceutico::~Farmaceutico(){}
 
 bool Farmaceutico::VerificarReceta(Cliente miCliente) {
     return false;

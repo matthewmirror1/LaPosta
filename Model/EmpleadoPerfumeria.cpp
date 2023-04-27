@@ -1,33 +1,16 @@
-/**
- * Project Untitled
- */
+
 
 
 #include "EmpleadoPerfumeria.h"
-
-/**
- * EmpleadoPerfumeria implementation
- */
-
-
-/**
- * @param string
- * @param string
- * @param date
- * @param float
- */
-EmpleadoPerfumeria::EmpleadoPerfumeria(string Nombre, string Apellido, date Horario_Laboral, float Sueldo) {
+EmpleadoPerfumeria:EmpleadoPerfumeria::Empleado(string Nombre, string Apellido, date Horario_Laboral, float Sueldo) {
 
 }
 EmpleadoPerfumeria::~EmpleadoPerfumeria() {
 
 }
-/**
- * @param miArticulos
- * @return void
- */
+
 void EmpleadoPerfumeria::AsesorarPerfum(Articulos miArticulos) {
-    return;
+    
 }
 float EmpleadoPerfumeria::get_Sueldo() {
     return this->Sueldo;

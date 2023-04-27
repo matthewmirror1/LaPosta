@@ -24,7 +24,7 @@ unsigned int LlamarPorTicket(Cliente miCliente);
 
 void ExpenderSolictado(Cliente miCliente);
 
-float AplicarDescuento(void miCliente.Cliente);
+float AplicarDescuento( miCliente.Cliente);
     
 float FacturaryGeneraTicket();
     

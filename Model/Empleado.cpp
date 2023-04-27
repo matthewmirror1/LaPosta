@@ -1,8 +1,6 @@
-/**
- * Project Untitled
- */
 
-//comentario prueba
+
+
 #include "Empleado.h"
 
  //constructor
@@ -19,29 +17,21 @@ Empleado::~Empleado() {
 }
 
 unsigned int Empleado::LlamarPorTicket(Cliente miCliente) {
-    return null;
+   
 }
 
-/**
- * @param miCliente
- */
+
 void Empleado::ExpenderSolictado(Cliente miCliente) {
 
 }
 
-/**
- * @param miCliente.Cliente
- * @return float
- */
 float Empleado::AplicarDescuento(void miCliente.Cliente) {
-    return 0.0;
+    
 }
 
-/**
- * @return float
- */
+
 float Empleado::FacturaryGeneraTicket() {
-    return 0.0;
+    ;
 }
 
 //setters

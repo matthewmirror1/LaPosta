@@ -5,21 +5,30 @@
 #include "Empleado.h"
 
 
-class EmpleadoPerfumeria: public Empleado {
-public: 
-    
+class EmpleadoPerfumeria : public Empleado {
+public:
 
- 
-    EmpleadoPerfumeria(); 
+
+
+    EmpleadoPerfumeria();
     ~EmpleadoPerfumeria();
-/**
- * @param miArticulos
- */
-void AsesorarPerfum(Articulos miArticulos);
-protected: 
+
+    void AsesorarPerfum(Articulos miArticulos);
+
+    EmpleadoPerfumeria::set_HorarioLaboral(date NuevaHoraLaboral);
     
+    float   EmpleadoPerfumeria::set_Sueldo(float NuevoSueldo);
+    
+    date EmpleadoPerfumeria::get_HorarioLaboral();
+    
+    float EmpleadoPerfumeria::get_Sueldo();
 
 
+
+
+
+
+protected:
 };
 
 #endif //_EMPLEADOPERFUMERIA_H
