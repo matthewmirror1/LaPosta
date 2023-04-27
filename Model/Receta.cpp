@@ -1,59 +1,42 @@
-/**
- * Project Untitled
- */
 
 
 #include "Receta.h"
 
-/**
- * Receta implementation
- */
-
-
-/**
- * @param string
- * @param string
- * @param unsigned int
- * @param string
- * @param string
- * @param string
- */
-void Receta::Receta(void string, void string, void unsigned int, void string, void string, void string) {
-
+Receta::Receta(string Medicamento, string Medico, const unsigned int NroMatricula, string NroAfiliado, string ObraSocial, string Dosificacion) :NroMatricula(NroMatricula) {
+    this->medicamento = Medicamento;
+    this->medico = Medico;
+    this->nroAfiliado = NroAfiliado;
+    this->obraSocial = ObraSocial;
+    this->dosificacion = Dosificacion;
 }
 
-/**
- * @param string Medicamento
- * @return string
- */
-string Receta::get_medicamento(void string Medicamento) {
-    return "";
+Receta::~Receta(){}
+
+string Receta::get_medicamento() {
+    return this->Medicamento;
 }
 
-/**
- * @param string dosificacion
- * @return string
- */
-string Receta::get_dosificacion(void string dosificacion) {
-    return "";
+string Receta::get_dosificacion() {
+    return this->Dosificacion; 
 }
 
-/**
- * @param string NroAfiliado
- * @return string
- */
-string Receta::get_nroAfiliado(void string NroAfiliado) {
-    return "";
+string Receta::get_nroAfiliado() {
+    return this->NroAfiliado;
 }
 
-/**
- * @param string ObraSocial
- * @return string
- */
-string Receta::get_obrasocial(void string ObraSocial) {
-    return "";
+string Receta::get_obrasocial() {
+    return this->ObraSocial;
 }
 
-void Receta::Receta() {
 
+string Receta::set_ObraSocial(sting obraSocial) {
+    this->ObraSocial = obrasocial;
+}
+
+string Receta :: set_Dosificacion(string dosificacion) {
+    this->Dosificacion = dosificacion;
+}
+
+string Receta::set_Medicamento(string medicamento) {
+    this->Medicamento = medicamento;
 }
