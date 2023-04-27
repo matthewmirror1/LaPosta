@@ -9,13 +9,10 @@
 class Cleaner: public Empleado {
 public: 
 
- 
-    Cleaner(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+    Cleaner();
     ~Cleaner();
     
 bool LimpiarOrdenar();
-protected: 
-    
 
 };
 

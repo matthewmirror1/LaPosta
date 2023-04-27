@@ -9,10 +9,10 @@ public:
 
     Ticket(float PrecioFinal, string DNI, eMetodoPago MetodoPago, string CUIT, bool Descuento);
     ~Ticket();
+
 bool AplicarDescuento();
-protected: 
+
     
- 
 private: 
     float PrecioFinal;
     const string DNI;

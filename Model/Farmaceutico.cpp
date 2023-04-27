@@ -8,35 +8,26 @@ Farmaceutico::Farmaceutico(unsigned int NroMatricula):Empleado(string Nombre, st
 }
 Farmaceutico::~Farmaceutico(){}
 
-bool Farmaceutico::VerificarReceta(Cliente miCliente) {
-    return false;
+
+bool VerificarReceta(Cliente miCliente) {
 }
 
 
 void Farmaceutico::VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos) {
-    return;
+
 }
 
 
 void Farmaceutico::RecomendacionVentaLibre(Articulos miArticulos) {
-    return;
+    
 }
 
 
 void Farmaceutico::AconsejaDosificacion(Articulos miArticulos) {
-    return;
+
 }
 
 unsigned int Farmaceutico::get_NroMatricula() {
     return this->NroMatricula;
 }
-date Farmaceutico::get_HorarioLaboral() {
-    return this->HorarioLaboral;
-}
-    //getter de farmaceutico
-    date Farmaceutico::set_HorarioLaboral(date NuevaHoraLaboral) {
-        this->HorarioLaboral = NuevoHorarioLaboral;
-    }
-    float Farmaceutico::set_Sueldo(float NuevoSueldo) {
-        this->Sueldo = NuevoSueldo;
-    }
+

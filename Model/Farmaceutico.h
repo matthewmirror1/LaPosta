@@ -13,20 +13,19 @@ public:
     Farmaceutico( unsigned int NroMatricula);
     ~Farmaceutico();
 
-bool VerificarReceta(Cliente miCliente);
+
     
 
- VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos);
+ void VentaMedicamentosReceta(Cliente miCliente, Articulos miArticulos);
 
- RecomendacionVentaLibre(Articulos miArticulos);
+void RecomendacionVentaLibre(Articulos miArticulos);
     
 
 void AconsejaDosificacion(Articulos miArticulos);
     
-unsigned int get NroMatricula();
+unsigned int get_NroMatricula();
 
-    
-
+   
 private: 
      unsigned int NroMatricula;
 };

@@ -9,15 +9,13 @@
 class EmpleadoOrtopedia: public Empleado {
 public: 
     
-
-     EmpleadoOrtopedia(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
+     EmpleadoOrtopedia();
      ~EmpleadoOrtopedia();
 
 void AsesorarArtOrtop(Articulos miArticulos);
 
 void Empacar(Articulos miArticulos);
-protected: 
-    
+
 
 };
 

@@ -9,7 +9,7 @@ string AsistAutomatico::get_NroTurno() {
     return this->NroTurno;
 }
 
-string AsistAutomatico::ImprimirTicket(void eNecesidad necesidad) {
+string AsistAutomatico::ImprimirTicket(eNecesidad necesidad) {
    
 }
 

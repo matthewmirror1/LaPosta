@@ -31,11 +31,10 @@ float Empleado::AplicarDescuento(void miCliente.Cliente) {
 
 
 float Empleado::FacturaryGeneraTicket() {
-    ;
+    
 }
 
 //setters
-
     //crear un parametro de NuevaHoraLaboral
 date Empleado::set_HorarioLaboral(date NuevaHoraLaboral) {
     this->HorarioLaboral = NuevoHorarioLaboral;

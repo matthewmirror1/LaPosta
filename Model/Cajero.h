@@ -13,16 +13,9 @@ public:
   ~ Cajero();
 
 float CalcMontoTotal(Perfumeria miPerfumeria, Golosina miGolosina, Ortopedia miOrtopedia, Farmacia miFarmacia);
-    
-
-bool Cobrar(Ticket miTicket);
-    
-
+bool Cobrar(Ticket miTicket); 
 void EntregarPedidoyRecibo(CarritoCompras miCarrito, Ticket miTicket);
-
 bool EntregatRecibo(Cliente miCliente);
-protected: 
-    
 
 };
 

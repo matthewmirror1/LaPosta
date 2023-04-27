@@ -5,40 +5,26 @@
 #define _EMPLEADO_H
 
 
-
-
 class Empleado{
 public: 
 
-
 Empleado(string Nombre, string Apellido, date Horario_Laboral, float Sueldo);
 ~Empleado();
-
-float setSueldo();
-
-date getHorarioLaboral();
-
-float getSueldo();
+float set_Sueldo(float Sueldo);
+date get_HorarioLaboral();
+float get_Sueldo();
 unsigned int LlamarPorTicket(Cliente miCliente);
-
-
 void ExpenderSolictado(Cliente miCliente);
-
 float AplicarDescuento( miCliente.Cliente);
-    
 float FacturaryGeneraTicket();
+date set_HorarioLaboral( date HorarioLaboral);
     
-
-date setHorarioLaboral( date HorarioLaboral);
-    
-
-
 protected: 
     string Nombre;
     string Apellido;
     date Horariolaboral;
     float Sueldo;
-    
+   
 
 };
 
